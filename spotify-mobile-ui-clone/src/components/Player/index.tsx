@@ -24,9 +24,7 @@ export default function Player({ imgSrc, title, track }: PlayerProps) {
           <Play size={24} weight="fill" />
         </div>
       </div>
-      <div
-        className="w-[98%] h-[1px] rounded-lg m-auto bg-gradient-to-r to-white/20 via-white/80 from-white/80"
-      />
+      <div className="w-[98%] h-[1px] rounded-lg m-auto bg-gradient-to-r to-white/20 via-white/80 from-white/80" />
     </div>
   );
 }

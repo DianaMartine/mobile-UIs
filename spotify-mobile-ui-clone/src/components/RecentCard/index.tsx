@@ -23,7 +23,13 @@ export default function RecentCard({
               <Heart size={20} weight="fill" />
             </div>
           ) : (
-            <Image src={imgSrc} alt="album cover" width={56} height={56} priority/>
+            <Image
+              src={imgSrc}
+              alt="album cover"
+              width={56}
+              height={56}
+              priority
+            />
           )}
           <div className="flex flex-col">
             <span className="font-bold">{title}</span>

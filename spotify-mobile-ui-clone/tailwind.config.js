@@ -1,26 +1,26 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/views/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/views/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       animation: {
-        fadeIn: 'fadeIn 2s ease-in forwards',
+        fadeIn: "fadeIn 2s ease-in forwards",
       },
       keyframes: {
         fadeIn: {
-          '0%': { opacity: 0 },
-          '100%': { opacity: 1 },
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
         },
       },
     },
   },
   plugins: [],
   variants: {
-    animation: ['motion-safe']
+    animation: ["motion-safe"],
   },
-}
+};

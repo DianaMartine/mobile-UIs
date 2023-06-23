@@ -24,7 +24,7 @@ export default function NotificationCard({
   author,
 }: NotificationCardProps) {
   return (
-    <div className="bg-zinc-900 text-zinc-50 m-auto w-screen">
+    <div className="bg-zinc-900 text-zinc-50 m-auto w-[412px]">
       <div className="flex items-center gap-4">
         <Image
           src={imgSrc}

@@ -9,7 +9,7 @@ import Player from "@/components/Player";
 
 export default function MainSection() {
   return (
-    <main className="p-4 m-auto overflow-y-auto">
+    <main className="p-4 m-auto overflow-hidden">
       <div className="flex mb-6">
         <Tag label="Músicas" context="home" />
         <Tag label="Podcasts e programas" context="home" />
@@ -42,7 +42,7 @@ export default function MainSection() {
           <AlbumCard imgSrc={mj} description="Michael Jackson" />
         </div>
       </section>
-      <div className="fixed w-[92vw] bottom-[76px]">
+      <div className="fixed w-[380px] bottom-[76px]">
         <Player imgSrc={image} title="Diana Martine" track="TransDev" />
       </div>
     </main>

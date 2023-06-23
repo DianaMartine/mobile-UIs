@@ -11,8 +11,8 @@ import mj from "@/assets/images/mj.jpeg";
 
 export default function Notifications() {
   return (
-    <div className="overflow-hidden">
-      <div className="fixed w-full top-0 text-zinc-50 p-4 bg-zinc-900 flex">
+    <div className="overflow-hidden w-[412px] m-auto">
+      <div className="fixed w-[412px] top-0 text-zinc-50 p-4 bg-zinc-900 flex">
         <Link href="/">
           <ArrowLeft size={24} />
         </Link>
@@ -55,11 +55,11 @@ export default function Notifications() {
             author="Michael Jackson"
           />
         </section>
-        <div className="fixed w-[92vw] bottom-[76px]">
+        <div className="fixed w-[380px] bottom-[76px]">
           <Player imgSrc={diana} title="Diana Martine" track="TransDev" />
         </div>
       </div>
-      <div className="fixed w-full bottom-0">
+      <div className="fixed w-[412px] bottom-0">
         <Footer />
       </div>
     </div>
